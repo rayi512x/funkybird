@@ -8,4 +8,4 @@ Dependencies:
 - a C compiler
 - [SDL2](https://github.com/libsdl-org/SDL)
 
-    cc -o funkybird funkybird.c `sdl2-config --cflags --libs`
+```cc -o funkybird funkybird.c $(sdl2-config --cflags --libs)```
